@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;GENERATE_GETTERS&quot;:false,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;MyTheme&quot;}">
+  <meta name="vaadin-version" content="8.1.5">
+ </head>
+ <body>
+  <vaadin-vertical-layout width-auto height-full>
+   <vaadin-form-layout width="363px" height-full :expand>
+    <vaadin-text-field caption="First Name" _id="firstName"></vaadin-text-field>
+    <vaadin-text-field caption="Last Name" _id="lastName"></vaadin-text-field>
+    <vaadin-text-field caption="Email" _id="email"></vaadin-text-field>
+    <vaadin-date-field caption="Date of Birth" _id="dateOfBirth"></vaadin-date-field>
+    <vaadin-text-area caption="Notes" width-full _id="notes"></vaadin-text-area>
+   </vaadin-form-layout>
+   <vaadin-horizontal-layout width="381px">
+    <vaadin-button plain-text _id="save">
+      Save 
+    </vaadin-button>
+    <vaadin-button plain-text :expand>
+      Cancle 
+    </vaadin-button>
+    <vaadin-button plain-text>
+      Delete 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+  </vaadin-vertical-layout>
+ </body>
+</html>
