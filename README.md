@@ -6,7 +6,7 @@ Introducing Vaadin, an open source web framework to build progressive web apps a
   
 ## To run the project
   * Clone the project locally
-  [GitHub](https://github.com/sebivenlo/Vaadin-workshop.git)
+  [Vaadin-workshop](https://github.com/sebivenlo/Vaadin-workshop.git)
   * Open terminal or PowerShell (for windows)
   * Make sure that docker is running
   * Go to the project directory and make sure you are at the root directory
