@@ -3,6 +3,7 @@ Introducing Vaadin, an open source web framework to build progressive web apps a
 
 # Things you need to run this project:
   * Install docker
+  [install Docker](https://docs.docker.com/docker-for-windows/install/)
   
 ## To run the project
   * Clone the project locally
