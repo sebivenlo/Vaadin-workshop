@@ -10,9 +10,10 @@ Introducing Vaadin, an open source web framework to build progressive web apps a
   * Open terminal or PowerShell (for windows)
   * Make sure that docker is running
   * Go to the project directory and make sure you are at the root directory
-  * Build the project using docker to create an image this image will contain a jar file
-   *docker build -t vaadin-workshop .*  this will create a jar file that containes
-  * Second use the run command to run the project:
-   docker run -p 8080:8080 vaadin-workshop
-  * Open your browser and direct to:
-    localhost:8080
+  * Build the project using docker to create an image this image will contain a jar file <br/>
+   **docker build -t vaadin-workshop .** <br/>
+   this will create a jar file that containes
+  * Second use the run command to run the project:<br/>
+   **docker run -p 8080:8080 vaadin-workshop**
+  * Open your browser and direct to:<br/>
+   **localhost:8080**
