@@ -1,0 +1,7 @@
+my\vaadin\ApplicationUI.class
+modules\CustomerStatus.class
+my\vaadin\CustomerForm.class
+my\vaadin\Application.class
+my\vaadin\CustomerFormDesign.class
+modules\CustomerService.class
+modules\Customer.class
