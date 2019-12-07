@@ -17,4 +17,4 @@ Introducing Vaadin, an open source web framework to build progressive web apps a
   * Use the run command to run the jar file inside the image:<br/>
    The command for running is: ***docker run -p 8080:8080 vaadin-workshop***
   * Open your browser and direct to:<br/>
-   [Vaadin-workshop](https://localhost:8080)
+   [localhost](https://localhost:8080)
