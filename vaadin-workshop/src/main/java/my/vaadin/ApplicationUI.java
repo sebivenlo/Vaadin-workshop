@@ -20,7 +20,6 @@ public class ApplicationUI extends UI {
     private Grid<Customer> grid = new Grid<>(Customer.class);
     private CustomerForm form = new CustomerForm(this);
 
-
     @Override
     protected void init(VaadinRequest request) {
 
