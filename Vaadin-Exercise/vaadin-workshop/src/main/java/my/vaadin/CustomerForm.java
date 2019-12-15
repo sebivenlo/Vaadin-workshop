@@ -33,8 +33,9 @@ public class CustomerForm extends FormLayout {
     private ApplicationUI myUI;
 
     /**
-     * TODO 10 Create a binder that binds the customer class with the fields (Hint 'new Binder<>(the customer class here'))</>
+     * TODO 10 Create a binder that binds the customer class with the fields (Hint: new Binder<>('the customer class here'))</>
      */
+    // Your code goes here
 
     public CustomerForm(ApplicationUI myUI){
         this.myUI = myUI;
@@ -53,7 +54,7 @@ public class CustomerForm extends FormLayout {
         status.setItems(CustomerStatus.values());
 
         /**
-         * TODO 13 Bind the instance fields with the customer class (Hint: binder.bind???)
+         * TODO 13 Bind the instance fields with the customer class (Hint: binder.bind...)
          */
         // Your code goes here
 

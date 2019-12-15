@@ -20,12 +20,12 @@ public class ApplicationUI extends UI {
     private CustomerService service = CustomerService.getInstance();
     /**
      * In this class we create and set the layout and the components.
-     * (NOTE: per assignment there is one line of code to be added)
+     * (NOTE: per assignment there are one or two line of code to be added)
     */
 
 
     /**
-     * TODO 1: Create a grid to show the customer data (So, type: <customer>)
+     * TODO 1: Create a grid to show the customer data (So of type: <customer>)
     */
     // Your code goes here
     private CustomerForm form = new CustomerForm(this);
@@ -54,13 +54,14 @@ public class ApplicationUI extends UI {
          * TODO 4: Add the the grid to the horizontal layout
          */
         // Your code goes here
-
-//        main.addComponent(form);
-//        main.addComponent(addCustomerBtn);
-//        addCustomerBtn.addClickListener(e -> {
-//            grid.asSingleSelect().clear();
-//            form.setCustomer(new Customer());
-//        });
+/*
+        main.addComponent(form);
+        main.addComponent(addCustomerBtn);
+        addCustomerBtn.addClickListener(e -> {
+            grid.asSingleSelect().clear();
+            form.setCustomer(new Customer());
+        });
+*/
         /**
          * TODO 5: Set 3 columns and give them the following names: firstname, lastname, email (Hint: "firstName","lastName","email")
          */
@@ -72,6 +73,7 @@ public class ApplicationUI extends UI {
          * TODO 6: Set the horizontal layout as the content of the application (hint: setContent())
          */
         // Your code goes here
+
 /*
         form.setVisible(false);
         grid.asSingleSelect().addValueChangeListener(event -> {
