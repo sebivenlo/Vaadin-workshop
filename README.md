@@ -3,8 +3,10 @@ Introducing Vaadin, an open source web framework to build progressive web apps a
 
 # Things you need to run this project:
   * Install docker
-  [install Docker](https://docs.docker.com/docker-for-windows/install/)
+  [Install Docker](https://docs.docker.com/docker-for-windows/install/)
   * Install IntelliJ
+  [Install IntelliJ](https://www.jetbrains.com/idea/download) ,
+  [Activate IntelliJ](https://www.jetbrains.com/student)
   * Install the Vaadin designer plugin in IntelliJ (Vaadin Designer (8)). When running it the first time, create an account and activate the free 14 day trail.
   * Jdk 8 or above.
   
