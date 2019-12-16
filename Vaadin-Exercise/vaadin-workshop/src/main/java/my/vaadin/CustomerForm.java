@@ -16,7 +16,7 @@ public class CustomerForm extends FormLayout {
     private TextField firstName = new TextField("First name");
 
     /**
-     * TODO 8 Create the following TextFields: lastname and email (Hint: Look at the firstname TextField)
+     * TODO 8 Create the following TextFields: lastName and email (Hint: Look at the firstname TextField)
      */
     // Your code goes here
 
