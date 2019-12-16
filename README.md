@@ -23,3 +23,7 @@ Introducing Vaadin, an open source web framework to build progressive web apps a
    The command for running is: ***docker run -p 8080:8080 vaadin-workshop***
   * Open your browser and direct to:<br/>
    [localhost](https://localhost:8080)
+
+## To run the project after you have made changes
+  * Build the project again (from the root directory of the project) ***docker build -t vaadin-workshop .***
+  * Run the project with ***docker run -p 8080:8080 vaadin-workshop***
