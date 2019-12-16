@@ -33,13 +33,13 @@ public class ApplicationUI extends UI {
     @Override
     protected void init(VaadinRequest request) {
         /**
-         * TODO 0: delete the following 3 lines
+         * TODO 0: Delete the following 3 lines
          */
         Label label = new Label("Hello from Ibi and Thijs");
         setContent(label);
         updateList();
         /**
-         * TODO 2: Create a horizontal layout
+         * TODO 2: Create a horizontal layout and name it 'main'
          */
         // Your code goes here
 
@@ -63,7 +63,7 @@ public class ApplicationUI extends UI {
         });
 */
         /**
-         * TODO 5: Set 3 columns and give them the following names: firstname, lastname, email (Hint: "firstName","lastName","email")
+         * TODO 5: Set 3 columns and give them the following names: firstName, lastName, email (Hint: "firstName","lastName","email")
          */
         // Your code goes here
 
